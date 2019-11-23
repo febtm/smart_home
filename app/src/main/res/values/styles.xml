@@ -1,0 +1,22 @@
+<resources>
+
+        <!-- the theme applied to the application or activity -->
+        <style name="AppTheme"
+                                parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="colorPrimary">@color/primary</item>
+
+            <!-- Support library compatibility -->
+            <item name="actionBarStyle">@style/MyActionBar</item>
+        </style>
+
+
+        <!-- ActionBar styles -->
+        <style name="MyActionBar"
+            parent="Widget.AppCompat.Toolbar">
+
+            <!-- Support library compatibility -->
+            <item name="contentInsetStart">0dp</item>
+            <!--<item name="background">@android:color/transparent</item>-->
+        </style>
+
+</resources>
